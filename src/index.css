@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-carnes-red: #8B0000;
+  --color-carnes-red-dark: #6B0000;
+  --color-carnes-red-light: #A52A2A;
+  --color-carnes-brown: #5C3317;
+  --color-carnes-brown-light: #8B6914;
+  --color-carnes-gold: #DAA520;
+  --color-carnes-gold-light: #F4C430;
+  --color-carnes-cream: #FFF8F0;
+  --color-carnes-cream-dark: #F5E6D3;
+  --color-carnes-text: #2D1810;
+  --color-carnes-text-light: #6B5B4F;
+
+  --font-heading: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-carnes-cream);
+  color: var(--color-carnes-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}

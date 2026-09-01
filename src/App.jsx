@@ -1,0 +1,19 @@
+import Header from './components/Header'
+import Banner from './components/Banner'
+import ProductGrid from './components/ProductGrid'
+import Footer from './components/Footer'
+
+function App() {
+  return (
+    <div className="min-h-screen bg-carnes-cream">
+      <Header />
+      <main>
+        <Banner />
+        <ProductGrid />
+      </main>
+      <Footer />
+    </div>
+  )
+}
+
+export default App
