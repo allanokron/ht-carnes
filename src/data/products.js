@@ -34,6 +34,17 @@ export const products = [
   },
   {
     id: 4,
+    name: 'Bife Ancho Bassi',
+    price: 89.90,
+    originalPrice: null,
+    unit: 'kg',
+    description: 'Corte congelado premium marca Bassi. Suculento e saboroso.',
+    weight: 'Congelado ~1kg',
+    category: 'Premium',
+    image: 'https://marfrig.com.br/pt/Imagens/marcas/bassi/bassi-packshot/bassi-cortes-congelados/bassi-corte-congelado-bife-ancho-packshot.png',
+  },
+  {
+    id: 5,
     name: 'Contrafilé',
     price: 69.90,
     originalPrice: null,
@@ -44,7 +55,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1558030006-450675393462?w=400&h=300&fit=crop',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Coxão Mole',
     price: 45.90,
     originalPrice: null,
@@ -55,10 +66,10 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=400&h=300&fit=crop',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Costela',
     price: 35.90,
-    originalPrice: 39.90,
+    originalPrice: null,
     unit: 'kg',
     description: 'Ótima para assados longos e cozidos.',
     weight: 'Por peça ~2kg',
@@ -66,7 +77,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Acém',
     price: 33.90,
     originalPrice: null,
@@ -77,7 +88,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Maminha',
     price: 64.90,
     originalPrice: null,
@@ -88,10 +99,10 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=400&h=300&fit=crop',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Fraldinha',
     price: 42.90,
-    originalPrice: 49.90,
+    originalPrice: null,
     unit: 'kg',
     description: 'Com membrana, sabor intensa. Ideal para assados.',
     weight: 'Por peça ~1kg',
@@ -99,7 +110,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1558030006-450675393462?w=400&h=300&fit=crop',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Patinho',
     price: 39.90,
     originalPrice: null,
@@ -110,7 +121,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1603048297172-c92544798d5a?w=400&h=300&fit=crop',
   },
   {
-    id: 11,
+    id: 12,
     name: 'Bisteca',
     price: 49.90,
     originalPrice: null,
@@ -121,7 +132,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop',
   },
   {
-    id: 12,
+    id: 13,
     name: 'Peito',
     price: 31.90,
     originalPrice: null,
